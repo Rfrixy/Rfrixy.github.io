@@ -152,7 +152,7 @@ nav.navbar.fixed-to-top{
 /*-----------------------------------------------------------------------------------*/
 
 header{
-	padding: 150px 0px 0px 0px;
+	/*padding: 150px 0px 0px 0px;*/
 	height: 960px;
 	background: url('../img/nepal.jpg');
 
@@ -182,6 +182,7 @@ header .carousel-iphone{
 	margin-left: auto;
 	width: 60vw;
 	min-width: 60vw;
+	min-height: 40vw;
 	background: url('../img/iphone-front.png') no-repeat;
 	background-size: 100%;
 
@@ -240,8 +241,8 @@ header .carousel-indicators li {
 
 .payoff{
 	overflow: hidden;
-	padding: 230px 0px 150px 0px;
-	min-height: 600px;
+	/*padding: 20vw 0vw 15vw 0vw;*/
+	min-height: 40vw;
 	background: url('../img/dunes.jpg');
 	background-position: center top;
 	background-repeat: repeat-x;
@@ -481,8 +482,8 @@ header .carousel-indicators li {
 @media (max-width:768px) {
 
 	header{
-		padding-bottom: 50px;
-		min-height: 1000px;
+		/*padding-bottom: 50px;*/
+		/*min-height: 1000px;*/
 		height: 100%;
 	}
 
@@ -504,10 +505,10 @@ header .carousel-indicators li {
 		margin-bottom: 60px;
 }
 
-header, .social{
+/*header, .social{
 	background-position-y: 0px;
 	background-size: 200%;
-}
+}*/
 
 .payoff{
 	padding-top: 50px;
