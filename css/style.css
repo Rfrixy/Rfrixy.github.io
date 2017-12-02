@@ -196,8 +196,8 @@ header .carousel {
 }
 
 header .carousel-indicators .active {
-	width: 1.62vw;
-	height: 1.62vw;
+	min-width: 1.62vw;
+	min-height: 1.62vw;
 	background: #444444;
 }
 
@@ -209,10 +209,10 @@ header .carousel-indicators {
 
 header .carousel-indicators li {
 	display: inline-block;
-	margin: 0.37vw;
-	width: 1.62vw;
-	height: 1.62vw;
-	border: 0.1vw solid #666666;
+	/*margin: 0.37vw;*/
+	min-width: 1.62vw;
+	min-height: 1.62vw;
+	border: 2px solid #666666;
 	border-radius: 1vw;
 	text-indent: -999px;
 	cursor: pointer;
